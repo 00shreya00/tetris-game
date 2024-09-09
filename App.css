@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .Tetris {
+    display: grid;
+    grid-template-columns: repeat(10, 30px);
+    grid-template-rows: repeat(20, 30px);
+    gap: 1px;
+    background: #333;
+  }
+  
+  .Cell {
+    width: 30px;
+    height: 30px;
+    background: #111;
+  }
+  
+  .Cell.filled {
+    background: #0f9;
+  }
+  
